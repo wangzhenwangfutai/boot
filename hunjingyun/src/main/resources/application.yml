@@ -13,9 +13,9 @@ spring:
           filters: stat
           driver-class-name: com.mysql.jdbc.Driver
           #基本属性
-          url: jdbc:mysql://139.196.138.192:3306/mmall
-          username: wangzhen
-          password: wangzhen
+          url: jdbc:mysql://XXXXXXX:3306/mmall
+          username: 
+          password:
           #配置初始化大小/最小/最大
           initial-size: 1
           min-idle: 1
@@ -37,9 +37,9 @@ spring:
    #redis配置
     redis:
        database: 0
-       host: 101.132.187.34
-       port: 6379
-       password: wzredis199023
+       host: XXXXXX
+       port: XXX
+       password: XXX
        timeout: 1000
        max-idle: 10
        max-wait: -1
